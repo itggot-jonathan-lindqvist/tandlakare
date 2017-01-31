@@ -1,0 +1,52 @@
+body {
+  background-color: #B8B8B8;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/*--------Text------*/
+p, a{
+  font-family: sans-serif;
+}
+/*----text slut ----*/
+/* -------Naven ----*/
+.button {
+    background-color: #295FFF;
+    border: none;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 36px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.button2 {
+    background-color: #295FFF;
+    border: none;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 36px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button:hover {
+    background-color: #0136D4;
+}
+
+nav{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: pink;
+}
