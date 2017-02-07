@@ -6,17 +6,31 @@ body {
   flex-direction: column;
 }
 
-/*--------Text------*/
-p, a, h1{
+/*--------Texter och titlar------*/
+p, a, h1, h3{
   font-family: sans-serif;
 }
 
 h1{
+  font-size: 60px;
+}
+#fix{
+  margin-bottom: 20px;
+}
+
+#fix2{
+  margin-top: 0;
+}
+
+h2{
+  font-size: 45px;
+}
+#titel{
   font-size: 45px;
   margin-left: 20px;
   color: white;
 }
-/*----text slut ----*/
+/*----text och titlar slut -------------*/
 
 /* ---------------Naven och hamburgare ------------------*/
 
@@ -108,16 +122,40 @@ nav{
 
  /* ---------------------container start----------------- */
 
-/* ----------------main--------------------- */
-
 .container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  margin-top: 180px;
 }
+/* ----------------main--------------------- */
 
 main{
   display: flex;
-  align-items: center;
+  justify-content: center;
+  flex-direction: column;;
+  width: 870px;
   align-content: center;
+  align-items: center;
+}
+
+.box1{
+    background-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    margin-bottom: 40px;
+    -webkit-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+}
+
+/*-------------main slut------------------------------  */
+
+/* --------------------media för mobil o dator---------- */
+
+@media all and (max-width:361px) {
+  aside{
+    display: none;
+  }
 }
