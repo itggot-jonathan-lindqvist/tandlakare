@@ -14,6 +14,11 @@ p, a, h1, h3{
 h1{
   font-size: 60px;
 }
+
+p{
+  font-size: 24px;
+}
+
 #fix{
   margin-bottom: 20px;
 }
@@ -30,6 +35,12 @@ h2{
   margin-left: 20px;
   color: white;
 }
+
+#personal{
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
 /*----text och titlar slut -------------*/
 
 /* ---------------Naven och hamburgare ------------------*/
@@ -150,10 +161,18 @@ main{
     box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
     width: 830px;
 }
-
-#personal{
-  font-family: sans-serif;
+/* --------------personal del --------------- */
+.pbild{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
+
+.avatar{
+  margin-left: 20px;
+}
+
+/* --------------personal del slut--------------- */
 
 /*-------------main slut------------------------------  */
 
