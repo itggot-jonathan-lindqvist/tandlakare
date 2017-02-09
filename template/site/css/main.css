@@ -148,6 +148,11 @@ main{
     -webkit-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+    width: 830px;
+}
+
+#personal{
+  font-family: sans-serif;
 }
 
 /*-------------main slut------------------------------  */
