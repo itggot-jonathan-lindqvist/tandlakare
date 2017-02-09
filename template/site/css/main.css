@@ -41,6 +41,15 @@ h2{
   font-family: sans-serif;
 }
 
+li{
+  font-size: 45px;
+  font-family: sans-serif;
+}
+
+.plist{
+  margin-left: 20px;
+}
+
 /*----text och titlar slut -------------*/
 
 /* ---------------Naven och hamburgare ------------------*/
