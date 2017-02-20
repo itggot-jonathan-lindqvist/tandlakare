@@ -196,8 +196,51 @@ main{
 
 /* --------------------media för mobil o dator---------- */
 
-@media all and (max-width:361px) {
+@media all and (max-device-width:361px) {
   aside{
     display: none;
   }
+  .nav_desk{
+    display: none;
+  }
+}
+
+@media all and (min-device-width:362px) {
+  .hamburgare_och_nav{
+    display: none;
+  }
+  .nav_desk{
+    width: 100%;
+    background-color:#295FFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    -webkit-box-shadow: 6px -9px 45px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px -9px 45px 2px rgba(0,0,0,0.75);
+    box-shadow: 6px -9px 45px 2px rgba(0,0,0,0.75);
+  }
+
+  .button{
+    font-size: 20px;
+    padding: 20px 50px;
+  }
+
+  /* #nav_logo{
+    margin-top: 15px;
+    position: absolute;;
+  }
+
+}
+*/
+
+main{
+  width: auto;
+  margin-right: 180px;
+  background-color: none;
+  margin-left: 180px;
+}
+
+.box1{
+  width: auto;
 }
