@@ -64,7 +64,7 @@ li{
 /* ---------------Naven och hamburgare ------------------*/
 
 /* --------------------knappar-------------- */
-.button {
+.button1 {
     background-color: #295FFF;
     border: none;
     color: white;
@@ -78,7 +78,7 @@ li{
 }
 
 
-.button:hover {
+.button1:hover {
     background-color: #0136D4;
 }
 
@@ -156,8 +156,18 @@ nav{
   flex-direction: row;
   justify-content: center;
   margin-top: 180px;
+
 }
-/* ----------------main--------------------- */
+
+/*----------------------- header-------------------------- */
+
+ header{
+   display: flex;
+   flex-direction: row;
+   margin-top: 90px;
+   justify-content: center;
+ }
+/* ----------------main------------------------------------ */
 
 main{
   display: flex;
@@ -197,15 +207,24 @@ main{
 /* --------------------media för mobil o dator---------- */
 
 @media all and (max-device-width:361px) {
+
   aside{
     display: none;
   }
+
   .nav_desk{
     display: none;
   }
+
+  header{
+    display: none;
+  }
+
 }
 
 @media all and (min-device-width:362px) {
+
+/* -----------------------Nav för desktop------------- */
   .hamburgare_och_nav{
     display: none;
   }
@@ -221,26 +240,81 @@ main{
     box-shadow: 6px -9px 45px 2px rgba(0,0,0,0.75);
   }
 
-  .button{
+  .button1{
     font-size: 20px;
     padding: 20px 50px;
   }
 
-  /* #nav_logo{
-    margin-top: 15px;
-    position: absolute;;
+/* --------------Nav för desktop slut------------------ */
+/* --------------------Knappar i aside---------------- */
+
+  .button {
+    display: inline-block;
+    background-color: pink;
+    border: none;
+    color: #01161E;
+    text-align: left;
+    font-size: 28px;
+    padding: 30px;
+    width: 100%;
+    transition: all 0.5s;
+    cursor: pointer;
+
   }
 
-}
-*/
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
 
-main{
-  width: auto;
-  margin-right: 180px;
-  background-color: none;
-  margin-left: 180px;
-}
+  .button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -40px;
+    transition: 0.5s;
+  }
 
-.box1{
-  width: auto;
-}
+
+  .button:hover span:after {
+    opacity: 1;
+    right: -20px;
+  }
+
+/* -------------------knappar i aside slut------------- */
+/* -------------------Ny "body" för desktop----------- */
+  body{
+    width: 100vw;
+  }
+
+  .yttre_container{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+  }
+
+  main{
+    width: 80vw;
+    background-color: none;
+  }
+
+  .box1{
+
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 45px;
+  }
+
+  #kort{
+    display: none;
+  }
