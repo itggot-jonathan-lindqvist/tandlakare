@@ -1,3 +1,7 @@
+html{
+  overflow-x: hidden;
+}
+
 
 body {
   background-color: #B8B8B8;
@@ -190,6 +194,19 @@ main{
     box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
     width: 830px;
 }
+
+ .box2{
+   background-color: white;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+   margin-bottom: 40px;
+   -webkit-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+   -moz-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+   box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+   width: 830px;
+ }
+
 /* --------------personal del --------------- */
 .pbild{
   display: flex;
@@ -205,6 +222,12 @@ main{
 
 /*-------------main slut------------------------------  */
 
+  footer{
+    height: 40px;
+    width: 1300px;
+    background-color: #295FFF;
+  }
+
 /* --------------------media för mobil o dator---------- */
 
 @media all and (max-device-width:361px) {
@@ -218,6 +241,10 @@ main{
   }
 
   header{
+    display: none;
+  }
+
+  footer{
     display: none;
   }
 
@@ -300,6 +327,7 @@ main{
     width: 100vw;
     align-content: center;
     justify-content: center;
+    align-items: center;
   }
 
   #img{
@@ -314,13 +342,20 @@ main{
   }
 
   .box1{
-    width: 1100px;
     padding-left: 0;
     padding-right: 0;
-    height: 532px;
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     width: 1060px;
+  }
+
+  .box2{
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    width: 1300px;
+    margin-top: 90px;
   }
 
   .container{
@@ -328,7 +363,6 @@ main{
     flex-direction: row;
     margin-top: 45px;
     width: 1300px;
-    margin-left: 150px;
   }
 
   #kort{
@@ -345,16 +379,22 @@ main{
     justify-content: center;
   }
 
+  #unik_box{
+    height:532px;
+  }
+
   aside{
     display: flex;
     flex-direction: column;
     margin-left: 20px;
   }
+
 /* -------------------Ny "body" för desktop slut----------- */
+
 
 /* -------------------Text fix----------- */
 
-  h1,h3,p{
+  h1,h3,p,h4{
     margin-left: 25px;
     margin-right: 25px;
   }
@@ -369,4 +409,21 @@ main{
 
   h1{
     font-size: 30px;
+  }
+
+  h4{
+    font-size: 17px;
+  }
+
+  #footer_txt{
+    color: white;
+  }
+
+  li{
+    font-size: 20px;
+    font-family: sans-serif;
+  }
+
+  #personal{
+    font-size: 25px;
   }
