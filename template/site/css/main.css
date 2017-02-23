@@ -222,11 +222,75 @@ main{
 
 /*-------------main slut------------------------------  */
 
+/* ---------------------footer saker-------------- */
+
   footer{
     height: 40px;
     width: 1300px;
     background-color: #295FFF;
+    display: flex;
+    flex-direction: row;
   }
+
+  .footer_box1{
+    width: 50%;
+  }
+
+  .footer_box2{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .footer_ikoner{
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+/* ---------------------footer saker slut-------------- */
+
+/* --------------till behandling html--------------- */
+
+  #kontakta_fix{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .kontakt_box1{
+    width: 50%;
+  }
+
+  .kontakt_box2{
+    display: flex;
+    align-items: center;
+    width: 50%;
+  }
+
+/* --------------till behandling html slut--------------- */
+
+/* -----------------till error html-------------- */
+
+  .box3{
+    background-color: white;
+    border: dashed 5px #295FFF;
+    margin-top:250px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    -webkit-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+  }
+
+  .error_knapp{
+    color: black;
+    margin-left: 25px;
+    text-decoration: none;
+  }
+
+/* -----------------till error html-------------- */
 
 /* --------------------media för mobil o dator---------- */
 
@@ -247,6 +311,10 @@ main{
   footer{
     display: none;
   }
+
+    .behandlings_box2{
+      display: none;
+    }
 
 }
 
