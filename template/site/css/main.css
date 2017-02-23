@@ -430,14 +430,17 @@
     border-bottom: 2px solid black;
     border-right: 2px solid black;
     width: 1300px;
-    margin-top: 90px;
   }
 
   .container{
     display: flex;
     flex-direction: row;
-    margin-top: 45px;
+    margin-top: 90px;
     width: 1300px;
+  }
+
+  #index_cont{
+    margin-top: 45px;
   }
 
   #kort{
