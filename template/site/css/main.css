@@ -1,75 +1,75 @@
-html{
-  overflow-x: hidden;
-}
+  html{
+    overflow-x: hidden;
+  }
 
-
-body {
-  background-color: #B8B8B8;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  flex-direction: column;
-}
+  body {
+    background-color: #B8B8B8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
 
 /*--------Texter och titlar------*/
-p, a, h1, h3, h4{
-  font-family: sans-serif;
-}
 
-h1{
-  font-size: 60px;
-}
+  p, a, h1, h3, h4{
+    font-family: sans-serif;
+  }
 
-p{
-  font-size: 24px;
-}
+  h1{
+    font-size: 60px;
+  }
 
-#fix{
-  margin-bottom: 20px;
-}
+  p{
+    font-size: 24px;
+  }
 
-#fix2{
-  margin-top: 0;
-}
+  #fix{
+    margin-bottom: 20px;
+  }
 
-#fix3{
-  font-size: 26px;
-}
+  #fix2{
+    margin-top: 0;
+  }
 
-h3{
-  font-size: 40px;
-}
+  #fix3{
+    font-size: 26px;
+  }
 
-h4{
-  font-size: 20px;
-}
+  h3{
+    font-size: 40px;
+  }
 
-#titel{
-  font-size: 45px;
-  margin-left: 20px;
-  color: white;
-}
+  h4{
+    font-size: 20px;
+  }
 
-#personal{
-  font-size: 45px;
-  font-family: sans-serif;
-}
+  #titel{
+    font-size: 45px;
+    margin-left: 20px;
+    color: white;
+  }
 
-li{
-  font-size: 45px;
-  font-family: sans-serif;
-}
+  #personal{
+    font-size: 45px;
+    font-family: sans-serif;
+  }
 
-.plist{
-  margin-left: 20px;
-}
+  li{
+    font-size: 45px;
+    font-family: sans-serif;
+  }
+
+  .plist{
+    margin-left: 20px;
+  }
 
 /*----text och titlar slut -------------*/
 
 /* ---------------Naven och hamburgare ------------------*/
 
 /* --------------------knappar-------------- */
-.button1 {
+  .button1 {
     background-color: #295FFF;
     border: none;
     color: white;
@@ -80,75 +80,79 @@ li{
     font-size: 50px;
     cursor: pointer;
     align-items: center;
-}
+  }
 
-
-.button1:hover {
+  .button1:hover {
     background-color: #0136D4;
-}
+  }
 
-#top{
-  margin-top: 60px;
-}
+  #top{
+    margin-top: 60px;
+  }
+
 /*-------------------------Knappar slut---------------- */
+
 /* ---------hamburgare ikon------------------- */
 
-.hikon{
-  margin-left: 10px;
-}
+  .hikon{
+    margin-left: 10px;
+  }
 
-.hikon_close{
-  display: flex;
-  justify-content: flex-end;
-  margin:15px;
-}
+  .hikon_close{
+    display: flex;
+    justify-content: flex-end;
+    margin:15px;
+  }
+
 /* ---------hamburgare ikon slut--------- */
 
-nav{
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-  background-color: #295FFF;
-  position: fixed;
-  -webkit-box-shadow: 0px 20px 79px 0px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0px 20px 79px 0px rgba(0,0,0,0.75);
-  box-shadow: 0px 20px 79px 0px rgba(0,0,0,0.75);
-}
+  nav{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #295FFF;
+    position: fixed;
+    -webkit-box-shadow: 0px 20px 79px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 20px 79px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 20px 79px 0px rgba(0,0,0,0.75);
+  }
 
-.hamburgare_och_nav{
-  display: flex;
-  flex-direction: row;
-}
+  .hamburgare_och_nav{
+    display: flex;
+    flex-direction: row;
+  }
+
 /*------------------- animation-------------------- */
 
-@keyframes dropHeader {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
+  @keyframes dropHeader {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
 }
 
 /*--------------- animation slut----------------- */
 
-.hamburgare{
-  display:none;
-  position: fixed;
-  z-index: 1;
-  height: 100%;
-  background-color: #295FFF;
-  border-right: 5px solid black;
-  animation-name: dropHeader;
-  animation-iteration-count: 1;
-  animation-timing-function: ease-out;
-  animation-duration: 0.1s;
-}
+  .hamburgare{
+    display:none;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    background-color: #295FFF;
+    border-right: 5px solid black;
+    animation-name: dropHeader;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-out;
+    animation-duration: 0.1s;
+  }
+
  /* ----------------hamburgarmeny javascript----------- */
 
  .hamburgare_js{
    display: block;
-}
+ }
 
  /* ------------------hamburgarmeny javascript slut-------------- */
 
@@ -156,13 +160,12 @@ nav{
 
  /* ---------------------container----------------- */
 
-.container{
+ .container{
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 180px;
-
-}
+  }
 
 /*----------------------- header-------------------------- */
 
@@ -172,18 +175,19 @@ nav{
    margin-top: 90px;
    justify-content: center;
  }
+
 /* ----------------main------------------------------------ */
 
-main{
-  display: flex;
-  justify-content: center;
-  flex-direction: column;;
-  width: 870px;
-  align-content: center;
-  align-items: center;
-}
+  main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;;
+    width: 870px;
+    align-content: center;
+    align-items: center;
+  }
 
-.box1{
+  .box1{
     background-color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -193,7 +197,7 @@ main{
     -moz-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
     width: 830px;
-}
+  }
 
  .box2{
    background-color: white;
@@ -208,15 +212,16 @@ main{
  }
 
 /* --------------personal del --------------- */
-.pbild{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
 
-.avatar{
-  margin-left: 20px;
-}
+  .pbild{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .avatar{
+    margin-left: 20px;
+  }
 
 /* --------------personal del slut--------------- */
 
@@ -294,7 +299,7 @@ main{
 
 /* --------------------media för mobil o dator---------- */
 
-@media all and (max-device-width:361px) {
+  @media all and (max-device-width:361px) {
 
   aside{
     display: none;
@@ -312,13 +317,13 @@ main{
     display: none;
   }
 
-    .behandlings_box2{
+    .kontakt_box2{
       display: none;
     }
 
-}
+  }
 
-@media all and (min-device-width:362px) {
+  @media all and (min-device-width:362px) {
 
 /* -----------------------Nav för desktop------------- */
   .hamburgare_och_nav{
@@ -343,6 +348,7 @@ main{
   }
 
 /* --------------Nav för desktop slut------------------ */
+
 /* --------------------Knappar i aside---------------- */
 
   .button {
@@ -387,6 +393,7 @@ main{
   }
 
 /* -------------------knappar i aside slut------------- */
+
 /* -------------------Ny "body" för desktop----------- */
 
   .yttre_container{
@@ -495,3 +502,4 @@ main{
   #personal{
     font-size: 25px;
   }
+/* -------------------Text fix slut----------- */
