@@ -297,6 +297,23 @@
 
 /* -----------------till error html-------------- */
 
+/* --------------till klinik html-------------- */
+
+  .bild_rad{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .bilder{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border: solid black 4px;
+    -webkit-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 51px -15px rgba(0,0,0,0.75);
+  }
+
 /* --------------------media för mobil o dator---------- */
 
   @media all and (max-device-width:361px) {
